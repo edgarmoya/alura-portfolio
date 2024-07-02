@@ -1,0 +1,133 @@
+/*Tablet*/
+/*Estilos para pc*/
+@media (min-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  i {
+    font-size: 3rem;
+  }
+
+  /* Menú */
+  .menu {
+    padding: 1rem 5rem;
+  }
+
+  .menu__title {
+    font-size: 1rem;
+  }
+
+  .menu__header_icon {
+    font-size: 2rem;
+  }
+
+  .menu__list {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .menu__list__item {
+    font-size: 1rem;
+    display: block;
+  }
+
+  /*title*/
+  .title__div {
+    padding: 1rem 5rem;
+  }
+  .title__bio {
+    font-size: 3.25rem;
+  }
+  .title__subsection {
+    font-size: 1.375rem;
+  }
+  .title__photo {
+    width: 23rem;
+    height: 23rem;
+  }
+
+  /*About Me*/
+  section.about {
+    padding: 2rem 5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .about__container {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+  }
+  .about__title {
+    font-size: 1.5rem;
+  }
+  .about__paragraph {
+    font-size: 1rem;
+    line-height: 1.25;
+  }
+
+  /*Skills and hobbies*/
+  .skills,
+  .hobbies {
+    padding: 1rem 5rem;
+  }
+
+  .skills__line,
+  .hobbies__line {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .skills__box,
+  .hobbies__box {
+    flex: 1;
+  }
+
+  /*Formación Académica*/
+  section.academic {
+    padding: 1rem 5rem;
+  }
+
+  .academic__title {
+    padding: 1rem;
+  }
+
+  .academic__courses__item__img img {
+    height: 18rem;
+  }
+
+  /*Experiencia Profesional*/
+
+  section.experience {
+    padding: 1rem 5rem;
+  }
+
+  .experience__box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .experience__img {
+    height: 24rem;
+    width: 60%;
+  }
+
+  .experiencie__box__invert {
+    justify-content: space-around;
+  }
+
+  .experiencie__box__invert .experience__img {
+    order: 1;
+  }
+
+  .experience__title {
+    font-size: 1.2rem;
+  }
+
+  .experience__text {
+    font-size: 1rem;
+  }
+}
